@@ -116,22 +116,13 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: var(--logo1);
   gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
 
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.nav-list::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
 }
 .logo {
   color: var(--logo1);
@@ -165,12 +156,15 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--logo1);
+  gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
-
   position: relative;
-  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.current {
+  color: var(--nav-list);
+  position: relative;
 }
 .current::after {
   content: '';
