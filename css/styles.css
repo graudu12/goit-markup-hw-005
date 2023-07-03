@@ -823,9 +823,12 @@ img {
   margin-left: 16px;
   fill: #ffffff;
 }
+.form-icon input:focus + svg {
+  fill: #4d5ae5;
+}
 .form-text:focus {
   border-color: #4d5ae5;
 }
-.form-icon input:focus + svg {
-  fill: #4d5ae5;
+.form-span input {
+  background-color: var(--nav-list);
 }
