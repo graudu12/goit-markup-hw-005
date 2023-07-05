@@ -835,11 +835,10 @@ img {
 .checkbox-label .form-span {
   background-color: var(--nav-list);
 }*/
-/*
+
 .form-checkbox-link {
   color: var(--logo);
-}*/
-/*
+} /*
 .visually-hidden:checked .form-span {
   border: none;
   fill: var(--botton-link);
