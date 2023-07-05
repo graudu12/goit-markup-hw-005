@@ -828,9 +828,9 @@ img {
   fill: var(--botton-link);
   background-color: var(--nav-list);
 }
-/*.form-icon input:focus + svg {
+.form-icon input:focus + svg {
   fill: #4d5ae5;
-}*/
+}
 /*
 .checkbox-label .form-span {
   background-color: var(--nav-list);
