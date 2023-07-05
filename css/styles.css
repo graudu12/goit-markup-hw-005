@@ -832,3 +832,7 @@ img {
 .form-checkbox-link {
   color: var(--logo);
 }
+.visually-hidden:checked .form-span {
+  border: none;
+  fill: var(--botton-link);
+}
