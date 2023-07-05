@@ -826,6 +826,9 @@ img {
 .form-icon input:focus + svg {
   fill: #4d5ae5;
 }
-.form-checkbox .form-span {
+.checkbox-label .form-span {
   background-color: var(--nav-list);
+}
+.form-checkbox-link {
+  color: var(--logo);
 }
